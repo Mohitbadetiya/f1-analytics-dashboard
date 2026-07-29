@@ -6,5 +6,5 @@ learning prediction module.
 
 **Dataset:** [Formula 1 World Championship 1950–2025](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020) (Kaggle)
 
-
+**Status:** 🚧 In progress — Day 1/14 (project setup + initial data exploration)
 **Status:** 🚧 In progress — Day 2/14 (data cleaning + merged master dataframe)
