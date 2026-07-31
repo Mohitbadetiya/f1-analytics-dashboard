@@ -6,6 +6,4 @@ learning prediction module.
 
 **Dataset:** [Formula 1 World Championship 1950–2025](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020) (Kaggle)
 
-**Status:** 🚧 In progress — Day 3/14 (EDA — driver & constructor history visualizations)
-
 **Status:** 🚧 In progress — Day 4/14 (circuit DNF analysis + correlation heatmap)
