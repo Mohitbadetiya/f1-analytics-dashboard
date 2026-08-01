@@ -97,8 +97,8 @@ This project is being built as a structured, 14-day learning sprint. Status refl
 | 3 | EDA — driver & constructor history | ✅ Done |
 | 4 | EDA — circuit reliability & correlation analysis | ✅ Done |
 | 5 | Lap-time pace & pit-stop efficiency analysis | ✅ Done |
-| 6 | Teammate battles + custom Elo driver-rating system | 🚧 In progress |
-| 7 | SQL integration (SQLite) | ⬜ Planned |
+| 6 | Teammate battles + custom Elo driver-rating system | ✅ Done |
+| 7 | SQL integration (SQLite) | 🚧 In progress |
 | 8 | Streamlit dashboard — skeleton & multi-page structure | ⬜ Planned |
 | 9–11 | Interactive dashboard pages (Explorer, Race Deep-Dive, Elo Leaderboard) | ⬜ Planned |
 | 12 | ML module — podium probability prediction | ⬜ Planned |
@@ -167,3 +167,5 @@ jupyter notebook
 ## 🙋 Author
 
 **Mohit Badetiya** — [GitHub @mohitbadetiya](https://github.com/mohitbadetiya)
+
+**Status:** 🚧 In progress — Day 6/14 (teammate battles + custom Elo driver-rating system)
