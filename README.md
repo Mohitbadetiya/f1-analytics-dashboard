@@ -9,7 +9,7 @@
 
 
 ---
-**Status:** 🚧 In progress — Day 6/14 (teammate battles + custom Elo driver-rating system)
+**Status:** 🚧 In progress — Day 7/14 (SQL integration with SQLite)
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -100,8 +100,8 @@ This project is being built as a structured, 14-day learning sprint. Status refl
 | 4 | EDA — circuit reliability & correlation analysis | ✅ Done |
 | 5 | Lap-time pace & pit-stop efficiency analysis | ✅ Done |
 | 6 | Teammate battles + custom Elo driver-rating system | ✅ Done |
-| 7 | SQL integration (SQLite) | 🚧 In progress |
-| 8 | Streamlit dashboard — skeleton & multi-page structure | ⬜ Planned |
+| 7 | SQL integration (SQLite) | ✅ Done |
+| 8 | Streamlit dashboard — skeleton & multi-page structure | 🚧 In progress |
 | 9–11 | Interactive dashboard pages (Explorer, Race Deep-Dive, Elo Leaderboard) | ⬜ Planned |
 | 12 | ML module — podium probability prediction | ⬜ Planned |
 | 13 | Polish, caching, performance, UI theming | ⬜ Planned |
