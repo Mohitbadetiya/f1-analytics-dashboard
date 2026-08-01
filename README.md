@@ -7,8 +7,9 @@
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Progress](https://img.shields.io/badge/roadmap-Day%205%2F14-orange)
 
-**Status:** 🚧 In progress — Day 6/14 (teammate battles + custom Elo driver-rating system)
+
 ---
+**Status:** 🚧 In progress — Day 6/14 (teammate battles + custom Elo driver-rating system)
 
 ## Table of Contents
 - [Overview](#-overview)
