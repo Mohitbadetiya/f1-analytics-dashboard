@@ -9,7 +9,7 @@
 
 
 ---
-**Status:** 🚧 In progress — Day 7/14 (SQL integration with SQLite)
+**Status:** 🚧 In progress — Day 8/14 (Streamlit dashboard — home page live)
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -101,8 +101,8 @@ This project is being built as a structured, 14-day learning sprint. Status refl
 | 5 | Lap-time pace & pit-stop efficiency analysis | ✅ Done |
 | 6 | Teammate battles + custom Elo driver-rating system | ✅ Done |
 | 7 | SQL integration (SQLite) | ✅ Done |
-| 8 | Streamlit dashboard — skeleton & multi-page structure | 🚧 In progress |
-| 9–11 | Interactive dashboard pages (Explorer, Race Deep-Dive, Elo Leaderboard) | ⬜ Planned |
+| 8 | Streamlit dashboard — skeleton & multi-page structure | ✅ Done |
+| 9–11 | Interactive dashboard pages (Explorer, Race Deep-Dive, Elo Leaderboard) | 🚧 In progress |
 | 12 | ML module — podium probability prediction | ⬜ Planned |
 | 13 | Polish, caching, performance, UI theming | ⬜ Planned |
 | 14 | Deployment (Streamlit Community Cloud) + final docs | ⬜ Planned |
