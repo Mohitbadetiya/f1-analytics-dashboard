@@ -4,12 +4,14 @@
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Data-Pandas-150458?logo=pandas&logoColor=white)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow)
-![Progress](https://img.shields.io/badge/roadmap-Day%205%2F14-orange)
-
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+![Progress](https://img.shields.io/badge/roadmap-14%2F14-brightgreen)
 
 ---
-**Status:** 🚧 In progress — Day 13/14 (podium predictor live — dashboard build complete)
+
+### 🔴 [Live Dashboard →](https://f1-analytics-dashboard-rctvr7wvn2s8sr4znyntzo.streamlit.app/)
+
+**Status:** ✅ Complete — all 14 days shipped, dashboard live and deployed
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -105,7 +107,7 @@ This project is being built as a structured, 14-day learning sprint. Status refl
 | 9–11 | Interactive dashboard pages (Explorer, Race Deep-Dive, Elo Leaderboard) | ✅ Done |
 | 12 | ML module — podium probability prediction | ✅ Done |
 | 13 | Polish, caching, performance, UI theming | ✅ Done |
-| 14 | Deployment (Streamlit Community Cloud) + final docs | 🚧 In progress |
+| 14 | Deployment (Streamlit Community Cloud) + final docs | ✅ Done |
 
 ---
 
