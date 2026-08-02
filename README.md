@@ -9,7 +9,7 @@
 
 
 ---
-**Status:** 🚧 In progress — Day 9/14 (interactive Driver Explorer page live)
+**Status:** 🚧 In progress — Day 10/14 (Race Deep-Dive page — query-pushdown architecture)
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -159,6 +159,7 @@ Small decisions and lessons documented along the way — not polish, actual proc
 
 - **Notebook memory vs. the exported CSV are two different things.** New columns added to `master` inside the notebook (e.g. `driver_name`, `classified`) only reach the dashboard after `master_results.csv` is explicitly re-exported with `to_csv()`.
 - **Streamlit's `@st.cache_data` tracks function inputs, not the underlying file.** If a cached loader function takes no arguments, changing the file it reads from won't be picked up by a browser refresh — the Streamlit server itself needs a restart to pick up the new data.
+
 
 ---
 
