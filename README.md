@@ -127,7 +127,7 @@ f1-analytics-dashboard/
 ├── .gitignore
 └── README.md
 ```
-When new columns are added to master in the notebook, data/processed/master_results.csv must be re-exported and the Streamlit server restarted (cached data doesn't auto-detect file changes) before the dashboard reflects the change.
+
 ---
 
 ## ⚡ Getting Started
@@ -150,6 +150,17 @@ pip install -r requirements.txt
 jupyter notebook
 # → open notebooks/01_data_exploration.ipynb
 ```
+
+---
+
+## 🧠 Engineering Notes
+
+Small decisions and lessons documented along the way — not polish, actual process notes.
+
+- **Notebook memory vs. the exported CSV are two different things.** New columns added to `master` inside the notebook (e.g. `driver_name`, `classified`) only reach the dashboard after `master_results.csv` is explicitly re-exported with `to_csv()`.
+- **Streamlit's `@st.cache_data` tracks function inputs, not the underlying file.** If a cached loader function takes no arguments, changing the file it reads from won't be picked up by a browser refresh — the Streamlit server itself needs a restart to pick up the new data.
+
+---
 
 ---
 
