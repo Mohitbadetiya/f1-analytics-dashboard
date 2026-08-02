@@ -9,7 +9,7 @@
 
 
 ---
-**Status:** 🚧 In progress — Day 12/14 (podium-probability ML model trained, ROC-AUC 0.91)
+**Status:** 🚧 In progress — Day 13/14 (podium predictor live — dashboard build complete)
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -104,8 +104,8 @@ This project is being built as a structured, 14-day learning sprint. Status refl
 | 8 | Streamlit dashboard — skeleton & multi-page structure | ✅ Done |
 | 9–11 | Interactive dashboard pages (Explorer, Race Deep-Dive, Elo Leaderboard) | ✅ Done |
 | 12 | ML module — podium probability prediction | ✅ Done |
-| 13 | Polish, caching, performance, UI theming | 🚧 In progress |
-| 14 | Deployment (Streamlit Community Cloud) + final docs | ⬜ Planned |
+| 13 | Polish, caching, performance, UI theming | ✅ Done |
+| 14 | Deployment (Streamlit Community Cloud) + final docs | 🚧 In progress |
 
 ---
 
@@ -160,7 +160,7 @@ Small decisions and lessons documented along the way — not polish, actual proc
 - **Notebook memory vs. the exported CSV are two different things.** New columns added to `master` inside the notebook (e.g. `driver_name`, `classified`) only reach the dashboard after `master_results.csv` is explicitly re-exported with `to_csv()`.
 - **Streamlit's `@st.cache_data` tracks function inputs, not the underlying file.** If a cached loader function takes no arguments, changing the file it reads from won't be picked up by a browser refresh — the Streamlit server itself needs a restart to pick up the new data.
 
-
+- **Each dashboard page defines its own data-loading functions** rather than importing from a shared module. Streamlit's multi-page app structure makes cross-file imports from a `src/` package fragile without additional path configuration — a small amount of duplication was accepted here in favor of simplicity and reliability.
 ---
 
 ---
