@@ -9,7 +9,7 @@
 
 
 ---
-**Status:** 🚧 In progress — Day 8/14 (Streamlit dashboard — home page live)
+**Status:** 🚧 In progress — Day 9/14 (interactive Driver Explorer page live)
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -127,7 +127,7 @@ f1-analytics-dashboard/
 ├── .gitignore
 └── README.md
 ```
-
+When new columns are added to master in the notebook, data/processed/master_results.csv must be re-exported and the Streamlit server restarted (cached data doesn't auto-detect file changes) before the dashboard reflects the change.
 ---
 
 ## ⚡ Getting Started
