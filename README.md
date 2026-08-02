@@ -9,7 +9,7 @@
 
 
 ---
-**Status:** 🚧 In progress — Day 10/14 (Race Deep-Dive page — query-pushdown architecture)
+**Status:** 🚧 In progress — Day 11/14 (Elo Leaderboard live — core dashboard complete)
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -102,8 +102,8 @@ This project is being built as a structured, 14-day learning sprint. Status refl
 | 6 | Teammate battles + custom Elo driver-rating system | ✅ Done |
 | 7 | SQL integration (SQLite) | ✅ Done |
 | 8 | Streamlit dashboard — skeleton & multi-page structure | ✅ Done |
-| 9–11 | Interactive dashboard pages (Explorer, Race Deep-Dive, Elo Leaderboard) | 🚧 In progress |
-| 12 | ML module — podium probability prediction | ⬜ Planned |
+| 9–11 | Interactive dashboard pages (Explorer, Race Deep-Dive, Elo Leaderboard) | ✅ Done |
+| 12 | ML module — podium probability prediction | 🚧 In progress |
 | 13 | Polish, caching, performance, UI theming | ⬜ Planned |
 | 14 | Deployment (Streamlit Community Cloud) + final docs | ⬜ Planned |
 
