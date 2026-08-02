@@ -9,7 +9,7 @@
 
 
 ---
-**Status:** 🚧 In progress — Day 11/14 (Elo Leaderboard live — core dashboard complete)
+**Status:** 🚧 In progress — Day 12/14 (podium-probability ML model trained, ROC-AUC 0.91)
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -103,8 +103,8 @@ This project is being built as a structured, 14-day learning sprint. Status refl
 | 7 | SQL integration (SQLite) | ✅ Done |
 | 8 | Streamlit dashboard — skeleton & multi-page structure | ✅ Done |
 | 9–11 | Interactive dashboard pages (Explorer, Race Deep-Dive, Elo Leaderboard) | ✅ Done |
-| 12 | ML module — podium probability prediction | 🚧 In progress |
-| 13 | Polish, caching, performance, UI theming | ⬜ Planned |
+| 12 | ML module — podium probability prediction | ✅ Done |
+| 13 | Polish, caching, performance, UI theming | 🚧 In progress |
 | 14 | Deployment (Streamlit Community Cloud) + final docs | ⬜ Planned |
 
 ---
